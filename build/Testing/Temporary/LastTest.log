@@ -1,0 +1,49 @@
+Start testing: Oct 06 01:25 CEST
+----------------------------------------------------------
+1/1 Testing: AllTestsAllocator
+1/1 Test: AllTestsAllocator
+Command: "/home/elkhaldy/ensimag-malloc/build/alloctest"
+Directory: /home/elkhaldy/ensimag-malloc/build
+"AllTestsAllocator" start time: Oct 06 01:25 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from Mark
+[ RUN      ] Mark.mmix
+[       OK ] Mark.mmix (0 ms)
+[----------] 1 test from Mark (0 ms total)
+
+[----------] 7 tests from Basic
+[ RUN      ] Basic.zero
+[       OK ] Basic.zero (0 ms)
+[ RUN      ] Basic.onetinysmall
+[       OK ] Basic.onetinysmall (0 ms)
+[ RUN      ] Basic.onelargesmall
+[       OK ] Basic.onelargesmall (0 ms)
+[ RUN      ] Basic.onemedium
+[       OK ] Basic.onemedium (0 ms)
+[ RUN      ] Basic.onelarge
+[       OK ] Basic.onelarge (0 ms)
+[ RUN      ] Basic.oneallocloopsmall
+[       OK ] Basic.oneallocloopsmall (0 ms)
+[ RUN      ] Basic.oneallocloopmedium
+[       OK ] Basic.oneallocloopmedium (0 ms)
+[----------] 7 tests from Basic (1 ms total)
+
+[----------] 3 tests from Generic
+[ RUN      ] Generic.loopevenoddsmall
+[       OK ] Generic.loopevenoddsmall (0 ms)
+[ RUN      ] Generic.loopevenoddmedium
+[       OK ] Generic.loopevenoddmedium (0 ms)
+[ RUN      ] Generic.aleatoire
+alloctest: /home/elkhaldy/ensimag-malloc/src/mem_internals.c:38: mark_check_and_get_alloc: Assertion `(*(p+1)=*(q-2))' failed.
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Failed.
+"AllTestsAllocator" end time: Oct 06 01:25 CEST
+"AllTestsAllocator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 06 01:25 CEST

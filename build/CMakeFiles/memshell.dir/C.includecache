@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elkhaldy/ensimag-malloc/src/mem.h
+
+/home/elkhaldy/ensimag-malloc/src/memshell.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+mem.h
+/home/elkhaldy/ensimag-malloc/src/mem.h
+
